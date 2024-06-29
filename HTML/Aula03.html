@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu HTML</title>
+
+    <style>
+        h1 {
+            background: red;
+        }
+
+        #cabecalho-dois {
+            background: green;
+        }
+
+        p {
+            background: blue;
+        }
+
+        .fundo-vermelho {
+            background: red;
+        }
+
+        .bold{
+            background: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1 id = "cabecalho-um" class="fundo-vermelho">
+        Título1
+    </h1>
+    <h1 id = "cabecalho-dois" class="fundo-vermelho borda-esquerda">
+        Título2
+    </h1>
+    <p>Lorem ipsum dolor sit, <b class="bold">amet consectetur adipisicing elit</b>. Quo at ex quos consequuntur dolore accusamus voluptatibus nostrum assumenda perspiciatis? Voluptate rem iste quos? Laboriosam eveniet eaque perspiciatis, nostrum natus explicabo.</p>
+</body>
+</html>
+<!--O id é um identificador e ele é unico na página, e eu criar um id = "heading" eu não posso crir outro com a mesma nomeclatura, ou seja, se eu tiver dois identificadores na mes página, eles devem ser diferentes -->
+<!--Outro identificador de elementos são as classes, todavia ao contrário dos id's, as classes podem se repetir. Podemos ter dez elementos com a mesma classe e um único elemento com mais de uma classe-->
+<!--Os identificadores são muito úteis para o uso de CSS e JavaScript-->
+<!--Para especificar alguma mudança em um Id específico no CSS eu uso #nome-d0-id -->
+<!--A tag <b> deita o texto em negrito-->
+    <!--Para especificar alguma mudança na class chamamos ela no CSS por .nome-da-classe-->
+<!--Se você tem algum estilo aplicado no ID e tenta mudar alterando pela classe, não será possivel pois o ID é mais forte que a classe.-->
