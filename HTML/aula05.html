@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principais Tags</title>
+    <style>
+        .goku{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cabeçalho</h1>
+    <p><b>Lorem ipsum dolor</b>, sit <strong> consectetur adipisicing elit</strong>. <i>Veniam possimus pariatur voluptatibus</i>. <em>Voluptates, illo nesciunt, ut dolores sint perferendis</em>, debitis adipisci vitae delectus repudiandae dignissimos <del>recusandae</del> itaque laudantium mollitia. Dolor?  H<sub>2</sub>O</p>
+    <p>Lorem ipsum dolor sit amet <q>consectetur</q> adipisicing elit. Iusto <a href="https://github.com/pedrohenrique3dk" target="_blank">porro dolore
+        
+        <img src="https://i.pinimg.com/736x/1c/99/a2/1c99a25a1a8ae2fc219a751931e05207.jpg" alt="naruto" width="50" height="44"></a>
+        
+    vitae veritatis velit perferendis <u>doloremque</u> nisi quod praesentium expedita eaque, dolorum temporibus consequatur ullam laboriosam sequi, qui nobis voluptatum.</p>
+    <!--vamos começar a aninhar tags dentro de outras tags. Toda Tag HTML pode receber um atributo style (CSS)-->
+    <!--A tag <b> faz os textos em negrito. Cuidado para não confundir a tag <b> com a tag <strong>. Ambas deixam o texto em negrito, porém a tag <strong> tem uma caracteristica semântica. A tag <strong> deixa a frase mais forte-->
+    <!--Tanto a tag <i> quanto <em> deixam o texto em itálico porém a <em> da ênfase na frase para algum leitor de tela.-->
+    <!--Podemos inserir no nosso texto links usando a tag <a href=""></a> o href é a parte que recebe o link do site que queremos encaminhar o usuário-->
+    <!--Usango o target="blank" para abrir em uma nova aba -->
+    <!--A tag delserve para cortar um texto, corrigir um erro e temos a tag <ins> que sublinha a frase. Para diminuir a palavra temos a tag small. a tag sup, faz um expoente e a tag sup faz um numero Pequeno. a tag de quebra de linha é a <br>. Temos a tag de citação <q>-->
+    <blockquote cite="">aqui eu estou fazendo um bloco de sitação</blockquote>
+        <!--O atributo cite serve pra colocarmos o link de onde tiramos a sitação -->
+        <!--A tag Hr cria uma linha horizontal que separa dois parágrafos -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt autem asperiores expedita cumque, ducimus debitis distinctio quos inventore veritatis, sequi natus nihil quam, dicta illo quibusdam voluptatum nostrum rem tempora?</p>
+
+        <hr>
+
+        <p>Lorem ipsum, <span class="goku">sit amet consectetur adipisicing elit</span>. Ratione cumque fuga ex, amet nulla, ad nisi voluptatibus distinctio asperiores deserunt, earum porro iusto necessitatibus eos impedit voluptatum omnis a voluptas!</p>
+        <!--podemos usar a tag code para quando queremos especificar códigos-->
+
+       <pre> <code>
+            import cmath<br>
+
+            def calcular_raizes(a, b, c):
+                raiz1 = (-b + cmath.sqrt(delta)) / (2 * a)
+                raiz2 = (-b - cmath.sqrt(delta)) / (2 * a)
+                
+                return raiz1, raiz2
+            </code></pre>
+        
+            <span>
+                <!--Conteiner generico e inline, ou seja, pode ser usada dentro do parágrafo por ser inline ela não derruba os outros elementos do parágrafo.-->
+            </span>
+            <div style="background: red;">
+                eu sou um bloco
+                <!--É um bloco-->
+            </div>
+            <!--Tudo que escrevemos até aqui foi semântico-->
+</body>
+</html>
